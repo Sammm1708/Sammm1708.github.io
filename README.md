@@ -1,1 +1,1 @@
-# SamraddhiGaud.github.io
+# MyPortfolio.github.io

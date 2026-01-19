@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse Event Without Script</title>
+  <style>
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+    }
+
+    #message {
+      margin-top: 15px;
+      color: blue;
+      visibility: hidden;
+    }
+
+    button:hover + #message {
+      visibility: visible; 
+    }
+  </style>
+</head>
+<body>
+
+  <button>Hover Over Me</button>
+  <div id="message">You are hovering over the button!</div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Prompt Input Form</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ padding: 20px;
+ }
+ label {
+ font-size: 18px;
+ display: block;
+ margin-top: 12px;
+ }
+ input {
+ width: 250px;
+ padding: 8px;
+ }
+ input[readonly] {
+ background: #eaeaea;
+ cursor: not-allowed;
+ }
+ button {
+ margin-top: 12px;
+ padding: 8px 14px;
+ font-size: 16px;
+ }
+ </style>
+</head>
+<body>
+ <h2>Enter Names Using Prompt Box</h2>
+ <label>First Name:</label>
+ <input type="text" id="fname" readonly>
+ <button onclick="fname.value = prompt('Enter First Name:')">Enter First
+Name</button>
+ <label>Last Name:</label>
+ <input type="text" id="lname" readonly>
+ <button onclick="lname.value = prompt('Enter Last Name:')">Enter Last
+Name</button>
+</body>
+</html>
